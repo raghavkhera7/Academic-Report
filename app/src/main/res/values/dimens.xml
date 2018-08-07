@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_extra_large">22sp</dimen>
+    <dimen name="text_large">19sp</dimen>
+    <dimen name="text_margin">14sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_normal">15sp</dimen>
+    <dimen name="text_small">11sp</dimen>
+    <dimen name="text_small_large">12sp</dimen>
+    <dimen name="text_tiny">10sp</dimen>
+    <dimen name="activity_common_margin">14dp</dimen>
+    <dimen name="activity_vertical_margin_half">7dp</dimen>
+    <dimen name="bb_default_elevation">8dp</dimen>
+    <dimen name="bb_fake_shadow_height">4dp</dimen>
+    <dimen name="bb_height">56dp</dimen>
+    <dimen name="badge_text_size">11dp</dimen>
+    <dimen name="edit_text_size">42dp</dimen>
+    <item name="header_view_end_margin_left" type="dimen">44dp</item>
+    <item name="header_view_end_margin_right" type="dimen">14dp</item>
+    <item name="header_view_start_margin_bottom" type="dimen">14dp</item>
+    <item name="header_view_start_margin_left" type="dimen">16dp</item>
+    <dimen name="tip_radius">4dp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="tip_dimen_regular">16dp</dimen>
+    <dimen name="tip_dimen_small">12dp</dimen>
+</resources>

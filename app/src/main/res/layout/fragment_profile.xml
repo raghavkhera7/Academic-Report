@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:text="Name :"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:text="Email :"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/profile_phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/nunito_bold_italic"
+    android:text="Phone :"
+    android:textAlignment="textStart"
+    android:textColor="#000"
+    android:textSize="18sp" />
+    <TextView
+        android:id="@+id/profile_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:text="Sex :"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/father_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:text="Father Name :"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/profile_mother_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:text="Mother Name :"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/profile_rollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:text="RollNo  :"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/app_ion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:text="@string/welcome_text"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:typeface="sans"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="1.0dip"
+        android:background="@color/theme"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:foreground="?android:selectableItemBackground"
+        android:text="Teacher Sign"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/shadow_view"
+        android:foreground="?android:selectableItemBackground"
+        android:text="Student Signin" />
+</LinearLayout>

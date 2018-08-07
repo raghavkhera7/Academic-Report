@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_time_table"
+            android:icon="@drawable/ic_timetable_black_24dp"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/nav_assignment"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Assingment" />
+        <item
+            android:id="@+id/nav_news_feed"
+            android:icon="@drawable/ic_newsfeed_black_24dp"
+            android:title="News Feed" />
+        <item
+            android:id="@+id/nav_marks"
+            android:icon="@drawable/ic_marks"
+            android:title="Marks" />
+        <item
+            android:id="@+id/nav_faculty_mess"
+            android:icon="@drawable/ic_newsfeed_black_24dp"
+            android:title="Faculty Message" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_change_password"
+                android:icon="@drawable/ic_password_black_24dp"
+                android:title="Change Password" />
+
+        </menu>
+    </item>
+
+</menu>
